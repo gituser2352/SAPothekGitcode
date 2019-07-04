@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Validating User Login">
+    <classes>
+      <class name="Academy.HomepageTest"/>
+    </classes>
+  </test> <!-- Validating User Login -->
+  <test name="Validating Navigationbar">
+    <classes>
+      <class name="Academy.ValidateNavigationbar"/>
+    </classes>
+  </test> <!-- Validating Navigationbar -->
+  <test name="Validating Title in the Page">
+    <classes>
+      <class name="Academy.VerifyTitle"/>
+    </classes>
+  </test> <!-- Validating Title in the Page -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="56539" started-at="2019-07-04T15:37:08Z" finished-at="2019-07-04T15:38:04Z">
+    <groups>
+    </groups>
+    <test name="Validating Files Uploading" duration-ms="56539" started-at="2019-07-04T15:37:08Z" finished-at="2019-07-04T15:38:04Z">
+      <class name="ShopApothekeTestcases.ShopApothekeUITest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:ShopApothekeTestcases.ShopApothekeUITest@7a69b07]" name="initialize" is-config="true" duration-ms="6656" started-at="2019-07-04T15:37:08Z" finished-at="2019-07-04T15:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="VerifyCartAddition()[pri:0, instance:ShopApothekeTestcases.ShopApothekeUITest@7a69b07]" name="VerifyCartAddition" duration-ms="47550" started-at="2019-07-04T15:37:14Z" finished-at="2019-07-04T15:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCartAddition -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:ShopApothekeTestcases.ShopApothekeUITest@7a69b07]" name="teardown" is-config="true" duration-ms="2314" started-at="2019-07-04T15:38:02Z" finished-at="2019-07-04T15:38:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ShopApothekeTestcases.ShopApothekeUITest -->
+    </test> <!-- Validating Files Uploading -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

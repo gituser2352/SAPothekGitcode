@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+<listeners>
+	<listener class-name="ShopApothekeTestcases.listeners"/>
+	<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+  <test name="Validating Files Uploading">
+    <classes>
+      <class name="ShopApothekeTestcases.ShopApothekeUITest"/>
+  </classes>
+  
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
